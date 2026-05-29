@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    background-color: #b6babe;
+    
+    
+}
+
+.hero{    
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+
+}
+
+.hero nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px white solid;
+    margin-left: 6px;
+    
+}
+
+.hero nav a{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0, 0,0,.5);
+}
+
+
+
+.hero-content{
+    margin: 50px auto 0;
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px #000000;
+    text-transform: uppercase;
+}
+
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    border-bottom: #b6babe solid 2px;
+    width: 40%;
+    margin: auto;
+    display: inline-block;
+    padding: 16px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    min-width: 400px;
+    max-width: 860px;
+}
+
+.container article{
+    background-color: white;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+    
+    
+
+}
+
+.container article h1{
+    background-color: #e2e4e7;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+    border-bottom: #b6babe solid 2px;
+}
+
+.container article a{
+    background-color: #b6babe;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+footer{
+    color: white;
+    background-color: #5a5b5c;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+}
