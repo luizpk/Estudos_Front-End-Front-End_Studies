@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:root {
+    --large-default-padding: 6.5em;
+    --medium-default-padding: 4em;
+}
+
 body{
     width: 100%;
     font-family: "Roboto Condensed", sans-serif;
@@ -57,6 +62,8 @@ header{
 
 .portfolio{
     width: 100%;
+    text-align: center;
+    padding: var(--medium-default-padding) var(--large-default-padding);
     
 }
 
@@ -64,5 +71,56 @@ h1,
 h2 {
     font-family: 'Viaoda Libre', cursive;
     font-weight: normal;
+    text-align: center;
+}
+
+.portfolio h1 {
+    font-size: 2.25em;
+    color: #252525;
+}
+
+.portfolio p {
+    font-size: 1em;
+    line-height: 2;
+    color: #555;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    padding: 0 var(--large-default-padding) var(--medium-default-padding);
+}
+
+.gallery-card {
+    text-align: center;
+}
+
+.about {
+    background-color: #003d52;
+    padding: var(--large-default-padding);
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.about p {
+    line-height: 1.5;
+    width: 70%;
+}
+
+.footer {
+    background: #0b171f;
+    padding: 1.8em;
+    font-size: .75em;
+    color: #6f8597;
+    letter-spacing: .3em;
     text-align: center;
 }
